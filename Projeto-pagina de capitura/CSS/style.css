@@ -23,3 +23,48 @@ header{
 .tittle{
     font-size: 26px;
 }
+
+section{
+    padding: 20px;
+    background-size:cover;
+    overflow: hidden;
+    background-image: url('../img/people.jpg');
+}
+
+.containerform{
+    max-width: 230px;
+    background-color: #ffffffBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #06e1ec;
+    font-weight: bold;
+}
+
+select{
+    -ms-progress-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background-image: url('../img/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
