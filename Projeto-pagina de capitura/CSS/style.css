@@ -68,3 +68,25 @@ select{
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.photo{
+    width: 160px;
+}
+
+.descricao{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.descricao p, h3{
+    margin-bottom: 20px;
+}
