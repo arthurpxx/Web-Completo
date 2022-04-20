@@ -29,13 +29,5 @@ for(var i in nomes){
     var m = media(nota1 , nota2)
 
 
-    console.log(nomes[i] +
-        " - " + 
-        nota1 +
-        " - " + 
-        nota2 +
-        " - " +
-        m +
-        " - " +
-        passou(m))
+    console.log(nomes[i] + " - " + nota1 + " - " + nota2 + " - " + m + " - " + passou(m))
 }
