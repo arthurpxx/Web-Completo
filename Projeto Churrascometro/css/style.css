@@ -1,0 +1,29 @@
+.container{
+    max-width: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    display: block; /* Não vai ter nada do lado dele, ele vai ocupar o espaço todo */
+    width: 100%; /* Vai ocupar todo o espaço do elemento pai(o container) */
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    background-color: aqua;
+    width: 100%;
+    font-weight: 700;
+}
