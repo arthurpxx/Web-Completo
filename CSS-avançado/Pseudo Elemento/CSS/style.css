@@ -1,0 +1,23 @@
+p::first-line{
+    color: red;
+}
+
+h1::first-letter{
+    color: blue;
+    font-size: 5rem;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

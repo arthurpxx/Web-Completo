@@ -1,0 +1,14 @@
+/* img{
+    width: 420px;
+    transform: rotate(45deg);
+} */
+
+/* img{
+    width: 420px;
+    transform: scale(0.5);
+} */
+
+img{
+    width: 420px;
+    transform: skew(45deg);
+}
